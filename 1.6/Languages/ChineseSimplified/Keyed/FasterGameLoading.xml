@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FGL_EarlyContentLoading_Label>在游戏空闲阶段提前加载模组资源。加载时可能短暂无响应，属于预期；遇到问题请关闭此选项。</FGL_EarlyContentLoading_Label>
+  <FGL_DelayGraphicLoading_Label>启动时延迟图形与图标加载，游戏过程中逐步加载。可缩短启动时间，但可能不稳定；出现问题请关闭。</FGL_DelayGraphicLoading_Label>
+  <FGL_DisableStaticAtlasesBaking_Label>禁用静态图集烘焙，可减少加载时间，但可能让地图渲染稍慢。</FGL_DisableStaticAtlasesBaking_Label>
+  <FGL_TextureDownscale_Description>部分模组包含大量高清纹理，加载耗时。使用此功能可对其降采样。
+此外会顺便删除 RimPy 生成的 DDS 文件，方便再次压缩。
+以下纹理将被缩减到目标尺寸：
+建筑 - 256px
+单位/生物 - 256px
+服装 - 128px
+武器 - 128px
+物品 - 128px
+植物 - 128px
+树木 - 256px
+地形 - 1024px</FGL_TextureDownscale_Description>
+  <FGL_TextureDownscale_Button>纹理降采样</FGL_TextureDownscale_Button>
+  <FGL_TextureDownscale_Confirm>执行纹理降采样？重新下载模组即可恢复。</FGL_TextureDownscale_Confirm>
+</LanguageData>

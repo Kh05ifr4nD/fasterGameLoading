@@ -1,0 +1,65 @@
+# IDE
+.vs/
+.idea/
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.suo
+*.user
+*.userosscache
+*.rsuser
+*.sln.docstates
+*.userprefs
+
+# Build output
+[Bb]in/
+[Oo]bj/
+[Dd]ebug*/
+[Rr]elease*/
+[Ll]og/
+[Ll]ogs/
+*.log
+*.tlog
+*.tmp
+*.tmp_proj
+
+# NuGet / restore
+project.lock.json
+project.fragment.lock.json
+packages/
+**/packages/*
+artifacts/
+*.nuget.props
+*.nuget.targets
+
+# Test / coverage artifacts
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+coverage*.info
+*.VisualState.xml
+TestResult.xml
+nunit-*.xml
+
+# Misc
+*.cache
+*.dbmdl
+*.jfm
+*.pfx
+*.publishsettings
+~$*
+*~
+*.orig
+*.bak
+
+# Language/runtime
+__pycache__/
+*.pyc
+node_modules/
+*.sln.iml
+mono_crash.*
