@@ -2,11 +2,18 @@
 <ModMetaData>
   <name>fasterGameLoading-forked</name>
   <author>Taranchuk; meandSSH</author>
-  <supportedVersions>
+ <supportedVersions>
     <li>1.6</li>
   </supportedVersions>
 	<packageId>meandssh.mod.fastergameloading</packageId>
   <description></description>
+  <modDependencies>
+    <li>
+      <packageId>brrainz.harmony</packageId>
+      <displayName>Harmony</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+    </li>
+  </modDependencies>
 	<loadBefore>
 		<li>Ludeon.RimWorld</li>
 	</loadBefore>
