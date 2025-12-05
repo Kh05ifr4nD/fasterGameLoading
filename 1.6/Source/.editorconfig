@@ -1,5 +1,11 @@
-﻿[*.cs]
+[*.cs]
+charset = utf-8
+end_of_line = crlf
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+insert_final_newline = true
 
-# IDE0058: Expression value is never used
-dotnet_diagnostic.IDE0058.severity = none
-dotnet_diagnostic.IDE0002.severity = error
+# Diagnostics
+dotnet_diagnostic.IDE0058.severity = none   # expression value is never used
+dotnet_diagnostic.IDE0002.severity = error  # unresolved symbol
